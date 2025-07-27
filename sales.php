@@ -138,6 +138,7 @@ $query = mysqli_query($koneksi, "SELECT sales.*, customer.nama_customer
                             <td>{$row['status']}</td>
                             <td>
                                 <a href='sales.php?id={$row['id_sales']}' class='btn btn-warning btn-sm'><i class='fa fa-edit'></i></a>
+                                <a href='sales_detail.php?id_sales={$row['id_sales']}' class='btn btn-info btn-sm'><i class='fa fa-list'></i></a>
                                 <a href='sales.php?hapus={$row['id_sales']}' class='btn btn-danger btn-sm' onclick='return confirm(\"Yakin hapus?\")'><i class='fa fa-trash'></i></a>
                             </td>
                         </tr>";

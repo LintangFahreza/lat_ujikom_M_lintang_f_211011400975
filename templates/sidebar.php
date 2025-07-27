@@ -9,8 +9,9 @@
         <i class="bi bi-folder2"></i> Master
     </a>
     <div class="collapse ps-3" id="masterMenu">
-        <a href="user-view.php" class="d-block text-white mb-1"><i class="bi bi-person-circle"></i> User Account</a>
-        <a href="sales.php" class="d-block text-white mb-1"><i class="bi bi-person-circle"></i> Sales</a>
+        <a href="user-view.php" class="d-block text-white mb-1"><i class="bi bi-person-circle"></i> User Acc</a>
+        <a href="sales.php" class="d-block text-white mb-1"><i class="bi bi-receipt"></i> Sales</a>
+        <a href="sales_detail.php" class="d-block text-white mb-1"><i class="bi bi-cart4"></i> DO</a>
         <a href="customer.php" class="d-block text-white mb-1"><i class="bi bi-people"></i> Customer</a>
         <a href="item.php" class="d-block text-white mb-1"><i class="bi bi-box"></i> Item</a>
     </div>
@@ -21,11 +22,11 @@
     </a>
     <div class="collapse ps-3" id="transaksiMenu">
         <a href="transaksi.php" class="d-block text-white mb-1"><i class="bi bi-file-earmark-text"></i> Transaksi</a>
-        <a href="inv.php" class="d-block text-white mb-1"><i class="bi bi-cash-coin"></i> Invoice</a>
+
     </div>
 
     <!-- Laporan -->
-    <a href="laporan.php" class="d-block text-white mt-2">
+    <a href="laporan_transaksi.php" class="d-block text-white mt-2">
         <i class="bi bi-bar-chart"></i> Laporan
     </a>
 </div>

@@ -59,7 +59,9 @@ $query = mysqli_query($koneksi, "SELECT * FROM customer");
 ?>
 
 <div class="flex-grow-1" style="margin-left: 173px;">
+
     <?php include "templates/header_dash.php"; ?>
+    
     <div class="content-wrapper ms-3 mt-3 me-3">
         <section class="content-header">
             <h1>Data Customer</h1>

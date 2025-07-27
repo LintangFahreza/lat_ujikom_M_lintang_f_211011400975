@@ -1,5 +1,12 @@
 <?php
 session_start();
+
+// Jika belum login, redirect ke halaman login
+if (!isset($_SESSION['user'])) {
+    header("Location: login.php");
+    exit();
+}
+
 include 'templates/header.php';
 include 'templates/sidebar.php';
 ?>
