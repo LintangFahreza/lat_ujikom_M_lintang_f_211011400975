@@ -50,7 +50,7 @@ $query = mysqli_query($koneksi, "
                 </div>
                 <div class="col-md-3 d-flex align-items-end">
                     <button type="submit" class="btn btn-primary me-2">Cari</button>
-                    <a href="laporan.php" class="btn btn-secondary">Reset</a>
+                    <a href="laporan_transaksi.php" class="btn btn-secondary">Reset</a>
                 </div>
             </form>
         </section>
