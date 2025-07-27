@@ -4,10 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <title>KOPERASI PEGAWAI RSUD TARAKAN</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome 6 -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="../../lat_ujikom_lin/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../lat_ujikom_lin/assets/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../lat_ujikom_lin/assets/icons-1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
     <style>
         body {
             font-family: 'Segoe UI', sans-serif;
